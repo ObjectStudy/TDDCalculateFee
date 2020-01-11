@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBA1BB623C96AAC00D53797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA1BB523C96AAC00D53797 /* AppDelegate.swift */; };
+		2FBA1BBA23C96AAC00D53797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA1BB923C96AAC00D53797 /* ViewController.swift */; };
+		2FBA1BBD23C96AAC00D53797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA1BBB23C96AAC00D53797 /* Main.storyboard */; };
+		2FBA1BBF23C96AAD00D53797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA1BBE23C96AAD00D53797 /* Assets.xcassets */; };
+		2FBA1BC223C96AAD00D53797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA1BC023C96AAD00D53797 /* LaunchScreen.storyboard */; };
+		2FBA1BD823C96AAD00D53797 /* TDDCalculateFeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA1BD723C96AAD00D53797 /* TDDCalculateFeeUITests.swift */; };
+		91B029629CEF33F59888218A /* Pods_TDDCalculateFeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFCD3DC45FF67322E97419F /* Pods_TDDCalculateFeeTests.framework */; };
+		97E1CD6E1B9C7F6F4DC09181 /* Pods_TDDCalculateFee_TDDCalculateFeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4352A4634484843D6C89C9F6 /* Pods_TDDCalculateFee_TDDCalculateFeeUITests.framework */; };
+		CF1E1AE280E4653798E46AD7 /* Pods_TDDCalculateFee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABB93D600647095954ACE4D /* Pods_TDDCalculateFee.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBA1BC923C96AAD00D53797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBA1BAA23C96AAC00D53797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBA1BB123C96AAC00D53797;
+			remoteInfo = TDDCalculateFee;
+		};
+		2FBA1BD423C96AAD00D53797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBA1BAA23C96AAC00D53797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBA1BB123C96AAC00D53797;
+			remoteInfo = TDDCalculateFee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1849A9EA4A8995AB0F419006 /* Pods-TDDCalculateFee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCalculateFee.release.xcconfig"; path = "Target Support Files/Pods-TDDCalculateFee/Pods-TDDCalculateFee.release.xcconfig"; sourceTree = "<group>"; };
+		2FBA1BB223C96AAC00D53797 /* TDDCalculateFee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDCalculateFee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA1BB523C96AAC00D53797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FBA1BB923C96AAC00D53797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FBA1BBC23C96AAC00D53797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FBA1BBE23C96AAD00D53797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBA1BC123C96AAD00D53797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBA1BC323C96AAD00D53797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBA1BC823C96AAD00D53797 /* TDDCalculateFeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDCalculateFeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA1BCE23C96AAD00D53797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBA1BD323C96AAD00D53797 /* TDDCalculateFeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDCalculateFeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA1BD723C96AAD00D53797 /* TDDCalculateFeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDCalculateFeeUITests.swift; sourceTree = "<group>"; };
+		2FBA1BD923C96AAD00D53797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7AF749F1CBE7D7467B33BA /* Pods-TDDCalculateFeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCalculateFeeTests.debug.xcconfig"; path = "Target Support Files/Pods-TDDCalculateFeeTests/Pods-TDDCalculateFeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4352A4634484843D6C89C9F6 /* Pods_TDDCalculateFee_TDDCalculateFeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDCalculateFee_TDDCalculateFeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AFF7DDF6A38D5D743E8720 /* Pods-TDDCalculateFee-TDDCalculateFeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCalculateFee-TDDCalculateFeeUITests.release.xcconfig"; path = "Target Support Files/Pods-TDDCalculateFee-TDDCalculateFeeUITests/Pods-TDDCalculateFee-TDDCalculateFeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6665BD9E72A011DB007E50B9 /* Pods-TDDCalculateFeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCalculateFeeTests.release.xcconfig"; path = "Target Support Files/Pods-TDDCalculateFeeTests/Pods-TDDCalculateFeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AF18C5C40A4F97131DD609B /* Pods-TDDCalculateFee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCalculateFee.debug.xcconfig"; path = "Target Support Files/Pods-TDDCalculateFee/Pods-TDDCalculateFee.debug.xcconfig"; sourceTree = "<group>"; };
+		BABB93D600647095954ACE4D /* Pods_TDDCalculateFee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDCalculateFee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFCD3DC45FF67322E97419F /* Pods_TDDCalculateFeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDCalculateFeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6E07B5AE0E952EBDDF7391 /* Pods-TDDCalculateFee-TDDCalculateFeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCalculateFee-TDDCalculateFeeUITests.debug.xcconfig"; path = "Target Support Files/Pods-TDDCalculateFee-TDDCalculateFeeUITests/Pods-TDDCalculateFee-TDDCalculateFeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBA1BAF23C96AAC00D53797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1E1AE280E4653798E46AD7 /* Pods_TDDCalculateFee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA1BC523C96AAD00D53797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B029629CEF33F59888218A /* Pods_TDDCalculateFeeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA1BD023C96AAD00D53797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E1CD6E1B9C7F6F4DC09181 /* Pods_TDDCalculateFee_TDDCalculateFeeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBA1BA923C96AAC00D53797 = {
+			isa = PBXGroup;
+			children = (
+				2FBA1BB423C96AAC00D53797 /* TDDCalculateFee */,
+				2FBA1BCB23C96AAD00D53797 /* TDDCalculateFeeTests */,
+				2FBA1BD623C96AAD00D53797 /* TDDCalculateFeeUITests */,
+				2FBA1BB323C96AAC00D53797 /* Products */,
+				4B878ACD929978A1CDD5C278 /* Pods */,
+				5E651C595907B3BC5DE0748A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBA1BB323C96AAC00D53797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA1BB223C96AAC00D53797 /* TDDCalculateFee.app */,
+				2FBA1BC823C96AAD00D53797 /* TDDCalculateFeeTests.xctest */,
+				2FBA1BD323C96AAD00D53797 /* TDDCalculateFeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBA1BB423C96AAC00D53797 /* TDDCalculateFee */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA1BB523C96AAC00D53797 /* AppDelegate.swift */,
+				2FBA1BB923C96AAC00D53797 /* ViewController.swift */,
+				2FBA1BBB23C96AAC00D53797 /* Main.storyboard */,
+				2FBA1BBE23C96AAD00D53797 /* Assets.xcassets */,
+				2FBA1BC023C96AAD00D53797 /* LaunchScreen.storyboard */,
+				2FBA1BC323C96AAD00D53797 /* Info.plist */,
+			);
+			path = TDDCalculateFee;
+			sourceTree = "<group>";
+		};
+		2FBA1BCB23C96AAD00D53797 /* TDDCalculateFeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA1BCE23C96AAD00D53797 /* Info.plist */,
+			);
+			path = TDDCalculateFeeTests;
+			sourceTree = "<group>";
+		};
+		2FBA1BD623C96AAD00D53797 /* TDDCalculateFeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA1BD723C96AAD00D53797 /* TDDCalculateFeeUITests.swift */,
+				2FBA1BD923C96AAD00D53797 /* Info.plist */,
+			);
+			path = TDDCalculateFeeUITests;
+			sourceTree = "<group>";
+		};
+		4B878ACD929978A1CDD5C278 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AF18C5C40A4F97131DD609B /* Pods-TDDCalculateFee.debug.xcconfig */,
+				1849A9EA4A8995AB0F419006 /* Pods-TDDCalculateFee.release.xcconfig */,
+				DC6E07B5AE0E952EBDDF7391 /* Pods-TDDCalculateFee-TDDCalculateFeeUITests.debug.xcconfig */,
+				63AFF7DDF6A38D5D743E8720 /* Pods-TDDCalculateFee-TDDCalculateFeeUITests.release.xcconfig */,
+				3C7AF749F1CBE7D7467B33BA /* Pods-TDDCalculateFeeTests.debug.xcconfig */,
+				6665BD9E72A011DB007E50B9 /* Pods-TDDCalculateFeeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E651C595907B3BC5DE0748A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BABB93D600647095954ACE4D /* Pods_TDDCalculateFee.framework */,
+				4352A4634484843D6C89C9F6 /* Pods_TDDCalculateFee_TDDCalculateFeeUITests.framework */,
+				BFFCD3DC45FF67322E97419F /* Pods_TDDCalculateFeeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBA1BB123C96AAC00D53797 /* TDDCalculateFee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA1BDC23C96AAD00D53797 /* Build configuration list for PBXNativeTarget "TDDCalculateFee" */;
+			buildPhases = (
+				995C8685ED89FC45A9B3932E /* [CP] Check Pods Manifest.lock */,
+				2FBA1BAE23C96AAC00D53797 /* Sources */,
+				2FBA1BAF23C96AAC00D53797 /* Frameworks */,
+				2FBA1BB023C96AAC00D53797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDCalculateFee;
+			productName = TDDCalculateFee;
+			productReference = 2FBA1BB223C96AAC00D53797 /* TDDCalculateFee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FBA1BC723C96AAD00D53797 /* TDDCalculateFeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA1BDF23C96AAD00D53797 /* Build configuration list for PBXNativeTarget "TDDCalculateFeeTests" */;
+			buildPhases = (
+				586AE90943528DB8811EAAC6 /* [CP] Check Pods Manifest.lock */,
+				2FBA1BC423C96AAD00D53797 /* Sources */,
+				2FBA1BC523C96AAD00D53797 /* Frameworks */,
+				2FBA1BC623C96AAD00D53797 /* Resources */,
+				B8EA8B138D62E9545A388D75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBA1BCA23C96AAD00D53797 /* PBXTargetDependency */,
+			);
+			name = TDDCalculateFeeTests;
+			productName = TDDCalculateFeeTests;
+			productReference = 2FBA1BC823C96AAD00D53797 /* TDDCalculateFeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FBA1BD223C96AAD00D53797 /* TDDCalculateFeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA1BE223C96AAD00D53797 /* Build configuration list for PBXNativeTarget "TDDCalculateFeeUITests" */;
+			buildPhases = (
+				EFCA82062895F3A005CEBF73 /* [CP] Check Pods Manifest.lock */,
+				2FBA1BCF23C96AAD00D53797 /* Sources */,
+				2FBA1BD023C96AAD00D53797 /* Frameworks */,
+				2FBA1BD123C96AAD00D53797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBA1BD523C96AAD00D53797 /* PBXTargetDependency */,
+			);
+			name = TDDCalculateFeeUITests;
+			productName = TDDCalculateFeeUITests;
+			productReference = 2FBA1BD323C96AAD00D53797 /* TDDCalculateFeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBA1BAA23C96AAC00D53797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tyler;
+				TargetAttributes = {
+					2FBA1BB123C96AAC00D53797 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					2FBA1BC723C96AAD00D53797 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2FBA1BB123C96AAC00D53797;
+					};
+					2FBA1BD223C96AAD00D53797 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2FBA1BB123C96AAC00D53797;
+					};
+				};
+			};
+			buildConfigurationList = 2FBA1BAD23C96AAC00D53797 /* Build configuration list for PBXProject "TDDCalculateFee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBA1BA923C96AAC00D53797;
+			productRefGroup = 2FBA1BB323C96AAC00D53797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBA1BB123C96AAC00D53797 /* TDDCalculateFee */,
+				2FBA1BC723C96AAD00D53797 /* TDDCalculateFeeTests */,
+				2FBA1BD223C96AAD00D53797 /* TDDCalculateFeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBA1BB023C96AAC00D53797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA1BC223C96AAD00D53797 /* LaunchScreen.storyboard in Resources */,
+				2FBA1BBF23C96AAD00D53797 /* Assets.xcassets in Resources */,
+				2FBA1BBD23C96AAC00D53797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA1BC623C96AAD00D53797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA1BD123C96AAD00D53797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		586AE90943528DB8811EAAC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDDCalculateFeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		995C8685ED89FC45A9B3932E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDDCalculateFee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8EA8B138D62E9545A388D75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDDCalculateFeeTests/Pods-TDDCalculateFeeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDDCalculateFeeTests/Pods-TDDCalculateFeeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TDDCalculateFeeTests/Pods-TDDCalculateFeeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCA82062895F3A005CEBF73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDDCalculateFee-TDDCalculateFeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBA1BAE23C96AAC00D53797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA1BBA23C96AAC00D53797 /* ViewController.swift in Sources */,
+				2FBA1BB623C96AAC00D53797 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA1BC423C96AAD00D53797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA1BCF23C96AAD00D53797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA1BD823C96AAD00D53797 /* TDDCalculateFeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBA1BCA23C96AAD00D53797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBA1BB123C96AAC00D53797 /* TDDCalculateFee */;
+			targetProxy = 2FBA1BC923C96AAD00D53797 /* PBXContainerItemProxy */;
+		};
+		2FBA1BD523C96AAD00D53797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBA1BB123C96AAC00D53797 /* TDDCalculateFee */;
+			targetProxy = 2FBA1BD423C96AAD00D53797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FBA1BBB23C96AAC00D53797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBA1BBC23C96AAC00D53797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FBA1BC023C96AAD00D53797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBA1BC123C96AAD00D53797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBA1BDA23C96AAD00D53797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FBA1BDB23C96AAD00D53797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBA1BDD23C96AAD00D53797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF18C5C40A4F97131DD609B /* Pods-TDDCalculateFee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = TDDCalculateFee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.assin.TDDCalculateFee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FBA1BDE23C96AAD00D53797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1849A9EA4A8995AB0F419006 /* Pods-TDDCalculateFee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = TDDCalculateFee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.assin.TDDCalculateFee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FBA1BE023C96AAD00D53797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7AF749F1CBE7D7467B33BA /* Pods-TDDCalculateFeeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = TDDCalculateFeeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.assin.TDDCalculateFeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDCalculateFee.app/TDDCalculateFee";
+			};
+			name = Debug;
+		};
+		2FBA1BE123C96AAD00D53797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6665BD9E72A011DB007E50B9 /* Pods-TDDCalculateFeeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = TDDCalculateFeeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.assin.TDDCalculateFeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDCalculateFee.app/TDDCalculateFee";
+			};
+			name = Release;
+		};
+		2FBA1BE323C96AAD00D53797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6E07B5AE0E952EBDDF7391 /* Pods-TDDCalculateFee-TDDCalculateFeeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = TDDCalculateFeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.assin.TDDCalculateFeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDDCalculateFee;
+			};
+			name = Debug;
+		};
+		2FBA1BE423C96AAD00D53797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AFF7DDF6A38D5D743E8720 /* Pods-TDDCalculateFee-TDDCalculateFeeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = TDDCalculateFeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.assin.TDDCalculateFeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDDCalculateFee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBA1BAD23C96AAC00D53797 /* Build configuration list for PBXProject "TDDCalculateFee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA1BDA23C96AAD00D53797 /* Debug */,
+				2FBA1BDB23C96AAD00D53797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA1BDC23C96AAD00D53797 /* Build configuration list for PBXNativeTarget "TDDCalculateFee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA1BDD23C96AAD00D53797 /* Debug */,
+				2FBA1BDE23C96AAD00D53797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA1BDF23C96AAD00D53797 /* Build configuration list for PBXNativeTarget "TDDCalculateFeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA1BE023C96AAD00D53797 /* Debug */,
+				2FBA1BE123C96AAD00D53797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA1BE223C96AAD00D53797 /* Build configuration list for PBXNativeTarget "TDDCalculateFeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA1BE323C96AAD00D53797 /* Debug */,
+				2FBA1BE423C96AAD00D53797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FBA1BAA23C96AAC00D53797 /* Project object */;
+}
